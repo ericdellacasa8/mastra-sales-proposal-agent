@@ -4,11 +4,6 @@ Create a PDF proposal, HTML proposal and HTML email from a sales conversation in
 Mastra Studio. Supply the commercial details, review the calculated totals and
 confirm generation. Continue in the same thread to revise the proposal.
 
-This is an independent project prepared for private colleague review, not an
-accepted Mastra catalog template. The owner has authorized MIT licensing and the existing artwork, and accepted the
-recorded dependency risks for restricted private development review. See the
-[review checklist](docs/github-file-manifest.md) for verification status.
-
 ## Why Mastra and Elements
 
 Mastra provides the agent, Studio and persistent conversation history. The model
