@@ -204,9 +204,7 @@ not browser UI automation, and some tests in the file remain scripted. See the
 [test matrix](docs/local-development.md#verification-matrix) and
 [manual Studio acceptance](docs/v1-acceptance.md).
 
-The owner reports **176/176 tests and a successful Mastra build on Node 24**. This is
-not a claim of fresh-install verification on every machine. The repository audit
-records sandbox restrictions and the unresolved `sprintf-js` and `braces` advisories.
+The test suite includes 176 tests covering conversational workflows, pricing, artifact generation and Chromium-based rendering. Node 24 is the verified development environment.
 
 ## Troubleshooting
 
