@@ -1,0 +1,57 @@
+{
+  "commercial": {
+    "seller": {
+      "name": "Silverquill"
+    },
+    "catalog": {
+      "version": "output-quality-demo",
+      "currency": "EUR",
+      "products": [
+        {
+          "id": "enterprise",
+          "name": "QuillChat Enterprise licenses",
+          "description": "QuillChat Enterprise licenses",
+          "billing": "monthly",
+          "unitPriceCents": 10500,
+          "maxQuantity": 1000
+        }
+      ]
+    },
+    "contract": {
+      "kind": "fixed",
+      "months": 12
+    },
+    "terms": [
+      "Demonstration proposal. Commercial inputs supplied by the salesperson; not independently verified public pricing."
+    ]
+  },
+  "discovery": {
+    "customer": {
+      "company": "Rivergate"
+    },
+    "notes": "QuillChat Enterprise licenses, quantity 50. Customer objectives: boost company-wide operational efficiency; maximize AI-agent use across internal processes."
+  },
+  "draft": {
+    "summary": "Proposal for Rivergate covering the requested scope. Customer goal: boost company-wide operational efficiency; maximize AI-agent use across internal processes",
+    "needs": [
+      {
+        "text": "boost company-wide operational efficiency; maximize AI-agent use across internal processes",
+        "evidenceQuote": "QuillChat Enterprise licenses, quantity 50. Customer objectives: boost company-wide operational efficiency; maximize AI-agent use across internal processes."
+      }
+    ],
+    "recommendations": [
+      {
+        "productId": "enterprise",
+        "quantity": 50,
+        "rationale": "QuillChat Enterprise licenses",
+        "evidenceQuote": "QuillChat Enterprise licenses, quantity 50. Customer objectives: boost company-wide operational efficiency; maximize AI-agent use across internal processes."
+      }
+    ],
+    "timeline": [],
+    "assumptions": [
+      "Quantity check: multiple one-time service units or at least fifty units were requested. Review the supplied quantities in the pricing table before any commitment."
+    ],
+    "openQuestions": [],
+    "nextStep": "Review the scope and agree next steps."
+  }
+}

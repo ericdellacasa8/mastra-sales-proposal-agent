@@ -1,0 +1,48 @@
+node_modules/
+.mastra/
+data/
+.env
+.env.*
+!.env.example
+.DS_Store
+.claude/
+skills-lock.json
+
+# Local Mastra/LibSQL databases (including WAL sidecars).
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+
+# Machine-local tooling, logs and browser reports.
+.agents/
+.codex/
+.vscode/
+.idea/
+*.log
+*.tsbuildinfo
+coverage/
+test-results/
+playwright-report/
+*.sqlite3
+*.sqlite3-*
+*.db-journal
+
+# Private planning/history and supplied design references: retained locally,
+# not part of the public template. Review the staged file list before publishing.
+/AGENTS.md
+/claude-context.txt
+/IMPLEMENTATION_PLAN.md
+/IMPLEMENTATION_STATUS.md
+/design/
+
+# Explicit private runtime/build boundaries (including legacy Studio storage).
+/src/mastra/public/data/
+/dist/
+/build/
+/logs/
+/tmp/
+/temp/
+*.pem
+*.key
+Thumbs.db

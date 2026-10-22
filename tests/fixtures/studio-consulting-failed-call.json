@@ -1,0 +1,199 @@
+{
+  "operation": {
+    "action": "batch",
+    "revision": 0,
+    "changes": [
+      {
+        "action": "start",
+        "mode": "consulting"
+      },
+      {
+        "action": "seller",
+        "revision": 0,
+        "fields": [
+          {
+            "field": "name",
+            "sourceMessageId": null,
+            "value": "Birchpath Advisory",
+            "quote": "I run a consulting firm called Birchpath Advisory."
+          },
+          {
+            "field": "description",
+            "sourceMessageId": null,
+            "value": "Consulting firm specializing in process improvement and reporting solutions.",
+            "quote": "We're preparing a proposal for a hypothetical customer, Copperbank Logistics, to improve their internal reporting processes."
+          }
+        ]
+      },
+      {
+        "action": "product",
+        "revision": 0,
+        "id": "discovery-workshop",
+        "name": {
+          "sourceMessageId": null,
+          "value": "Discovery workshop",
+          "quote": "Our services include a discovery workshop for €3,000"
+        },
+        "description": {
+          "sourceMessageId": null,
+          "value": "A focused workshop to map current reporting processes, identify gaps and define requirements.",
+          "quote": "Our services include a discovery workshop for €3,000"
+        },
+        "price": {
+          "sourceMessageId": null,
+          "value": "3000",
+          "quote": "€3,000",
+          "currency": "EUR",
+          "basis": "verified"
+        },
+        "billing": {
+          "sourceMessageId": null,
+          "value": "once",
+          "quote": "a one-time fee of €3,000"
+        }
+      },
+      {
+        "action": "product",
+        "revision": 0,
+        "id": "implementation-project",
+        "name": {
+          "sourceMessageId": null,
+          "value": "Implementation project",
+          "quote": "an implementation project for €12,000"
+        },
+        "description": {
+          "sourceMessageId": null,
+          "value": "Delivery of reporting improvements across three milestones, including configuration, testing and handover.",
+          "quote": "an implementation project for €12,000"
+        },
+        "price": {
+          "sourceMessageId": null,
+          "value": "12000",
+          "quote": "€12,000",
+          "currency": "EUR",
+          "basis": "verified"
+        },
+        "billing": {
+          "sourceMessageId": null,
+          "value": "once",
+          "quote": "a one-time fee of €12,000"
+        }
+      },
+      {
+        "action": "product",
+        "revision": 0,
+        "id": "ongoing-support",
+        "name": {
+          "sourceMessageId": null,
+          "value": "Ongoing support",
+          "quote": "optional ongoing support at €1,500 per month"
+        },
+        "description": {
+          "sourceMessageId": null,
+          "value": "Monthly support to maintain and iterate on reporting outputs.",
+          "quote": "optional ongoing support at €1,500 per month"
+        },
+        "price": {
+          "sourceMessageId": null,
+          "value": "1500",
+          "quote": "€1,500 per month",
+          "currency": "EUR",
+          "basis": "verified"
+        },
+        "billing": {
+          "sourceMessageId": null,
+          "value": "monthly",
+          "quote": "€1,500 per month"
+        }
+      },
+      {
+        "action": "customer",
+        "revision": 0,
+        "fields": [
+          {
+            "field": "company",
+            "sourceMessageId": null,
+            "value": "Copperbank Logistics",
+            "quote": "We're preparing a proposal for a hypothetical customer, Copperbank Logistics"
+          }
+        ]
+      },
+      {
+        "action": "notes",
+        "revision": 0,
+        "sourceMessageId": null,
+        "text": "Prepare a professional proposal recommending the discovery and implementation work, with ongoing support presented as an optional service. The implementation should be delivered in three milestones over eight weeks. Our services include a discovery workshop for €3,000, an implementation project for €12,000, and optional ongoing support at €1,500 per month."
+      },
+      {
+        "action": "select",
+        "revision": 0,
+        "productId": "discovery-workshop",
+        "quantity": 1,
+        "quote": "Recommend including the discovery workshop."
+      },
+      {
+        "action": "select",
+        "revision": 0,
+        "productId": "implementation-project",
+        "quantity": 1,
+        "quote": "Recommend including the implementation project."
+      },
+      {
+        "action": "draft",
+        "revision": 0,
+        "draft": {
+          "headline": "Proposal: Improve internal reporting for Copperbank Logistics",
+          "summary": "Birchpath Advisory recommends a focused discovery workshop followed by an implementation project to improve Copperbank Logistics' internal reporting processes. Ongoing support is offered as an optional monthly service. Implementation will be delivered in three milestones over eight weeks.",
+          "needs": [
+            {
+              "text": "Clarify current reporting gaps and define prioritized improvements.",
+              "evidenceQuote": "to improve their internal reporting processes."
+            },
+            {
+              "text": "Deliver configured reporting solutions across a controlled implementation.",
+              "evidenceQuote": "The implementation should be delivered in three milestones over eight weeks."
+            }
+          ],
+          "recommendations": [
+            {
+              "productId": "discovery-workshop",
+              "quantity": 1,
+              "rationale": "Run a discovery workshop to map processes, align stakeholders and define requirements before implementation.",
+              "evidenceQuote": "Our services include a discovery workshop for €3,000"
+            },
+            {
+              "productId": "implementation-project",
+              "quantity": 1,
+              "rationale": "Implement the defined improvements across three milestones to ensure staged delivery and testing.",
+              "evidenceQuote": "an implementation project for €12,000"
+            }
+          ],
+          "timeline": [
+            {
+              "phase": "Milestone 1 — Analysis & design",
+              "detail": "Weeks 1–3: complete discovery outputs, detailed design and acceptance criteria.",
+              "evidenceQuote": "The implementation should be delivered in three milestones over eight weeks."
+            },
+            {
+              "phase": "Milestone 2 — Build & test",
+              "detail": "Weeks 4–6: configure reporting solutions, run tests and iterate with stakeholders.",
+              "evidenceQuote": "The implementation should be delivered in three milestones over eight weeks."
+            },
+            {
+              "phase": "Milestone 3 — Handover & close",
+              "detail": "Weeks 7–8: final validations, training and formal handover to Copperbank Logistics.",
+              "evidenceQuote": "The implementation should be delivered in three milestones over eight weeks."
+            }
+          ],
+          "assumptions": [
+            "Copperbank Logistics will provide timely access to reporting systems and stakeholder availability for workshops.",
+            "Scope excludes major data platform reengineering unless agreed separately."
+          ],
+          "openQuestions": [],
+          "nextStep": "Review this draft and confirm any preferred contact details and billing recipient to generate the final PDF, HTML proposal and HTML email."
+        }
+      }
+    ],
+    "generate": true
+  }
+}

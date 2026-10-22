@@ -1,0 +1,97 @@
+{
+  "commercial": {
+    "seller": {
+      "name": "Demo Cairn Process Advisory",
+      "email": "projects@cairn.example",
+      "description": "Fictional consulting seller.",
+      "colors": {
+        "ink": "#092238",
+        "muted": "#475569",
+        "accent": "#704020",
+        "soft": "#F7F0E8",
+        "white": "#FFFFFF",
+        "canvas": "#F3F5F5",
+        "border": "#D3DEDF",
+        "dark": "#4D301E"
+      }
+    },
+    "catalog": {
+      "version": "consulting-2026-01",
+      "currency": "USD",
+      "products": [
+        {
+          "id": "discovery-workshop",
+          "name": "Discovery workshop",
+          "description": "Discovery workshop as scoped in the discovery notes.",
+          "unitPriceCents": 180000,
+          "billing": "once",
+          "maxQuantity": 1
+        },
+        {
+          "id": "research-session",
+          "name": "Stakeholder research session",
+          "description": "Stakeholder research session as scoped in the discovery notes.",
+          "unitPriceCents": 75000,
+          "billing": "once",
+          "maxQuantity": 10,
+          "unitLabel": "sessions"
+        },
+        {
+          "id": "process-plan",
+          "name": "Process review plan",
+          "description": "Process review plan as scoped in the discovery notes.",
+          "unitPriceCents": 220000,
+          "billing": "once",
+          "maxQuantity": 1
+        }
+      ]
+    },
+    "terms": [
+      "Fictional demonstration only. USD; taxes excluded; no discounts.",
+      "Scope, payment schedule and start date require confirmation.",
+      "Estimates are not a contract commitment."
+    ]
+  },
+  "discovery": {
+    "customer": {
+      "name": "Sample Buyer D",
+      "company": "Fictional Harbor Cooperative",
+      "email": "buyer-d@example.com"
+    },
+    "notes": "FICTIONAL DEMO. The cooperative needs an independent review of its intake process. Include 1 Discovery workshop. Include 2 Stakeholder research session. Include 1 Process review plan. Scope and start date have not been confirmed. No quantified business outcomes were measured."
+  },
+  "draft": {
+    "headline": "Clarify the process before changing it",
+    "summary": "Document the current intake process and review possible improvements with stakeholders.",
+    "needs": [
+      {
+        "text": "The cooperative needs an independent review of its intake process.",
+        "evidenceQuote": "The cooperative needs an independent review of its intake process."
+      }
+    ],
+    "recommendations": [
+      {
+        "productId": "discovery-workshop",
+        "quantity": 1,
+        "rationale": "Establish the boundaries of the intake review.",
+        "evidenceQuote": "Include 1 Discovery workshop."
+      },
+      {
+        "productId": "research-session",
+        "quantity": 2,
+        "rationale": "Gather input from two stakeholder groups.",
+        "evidenceQuote": "Include 2 Stakeholder research session."
+      },
+      {
+        "productId": "process-plan",
+        "quantity": 1,
+        "rationale": "Document findings and proposed process changes.",
+        "evidenceQuote": "Include 1 Process review plan."
+      }
+    ],
+    "timeline": [],
+    "assumptions": [],
+    "openQuestions": [],
+    "nextStep": "Reply to review the proposed scope and confirm the next conversation."
+  }
+}

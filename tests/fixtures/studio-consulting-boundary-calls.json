@@ -1,0 +1,440 @@
+[
+  {
+    "action": "batch",
+    "revision": 0,
+    "changes": [
+      {
+        "action": "start",
+        "mode": "custom"
+      },
+      {
+        "action": "seller",
+        "fields": [
+          {
+            "field": "name",
+            "value": "Birchpath Advisory",
+            "quote": "Birchpath Advisory proposes one discovery workshop at €3,000 one-time and one implementation project at €12,000 one-time for Copperbank Logistics."
+          }
+        ]
+      },
+      {
+        "action": "product",
+        "id": "discovery-workshop",
+        "name": {
+          "value": "Discovery Workshop",
+          "quote": "one discovery workshop"
+        },
+        "description": null,
+        "price": {
+          "value": "3000",
+          "quote": "€3,000 one-time",
+          "currency": "EUR",
+          "basis": "verified"
+        },
+        "billing": {
+          "value": "once",
+          "quote": "one-time"
+        },
+        "unitLabel": null
+      },
+      {
+        "action": "product",
+        "id": "implementation-project",
+        "name": {
+          "value": "Implementation Project",
+          "quote": "one implementation project"
+        },
+        "description": null,
+        "price": {
+          "value": "12000",
+          "quote": "€12,000 one-time",
+          "currency": "EUR",
+          "basis": "verified"
+        },
+        "billing": {
+          "value": "once",
+          "quote": "one-time"
+        },
+        "unitLabel": null
+      },
+      {
+        "action": "product",
+        "id": "support-monthly",
+        "name": {
+          "value": "Optional Support (monthly)",
+          "quote": "Support at €1,500/month is optional and excluded from the committed price."
+        },
+        "description": null,
+        "price": {
+          "value": "1500",
+          "quote": "€1,500/month",
+          "currency": "EUR",
+          "basis": "verified"
+        },
+        "billing": {
+          "value": "monthly",
+          "quote": "monthly"
+        },
+        "unitLabel": null
+      },
+      {
+        "action": "customer",
+        "fields": [
+          {
+            "field": "name",
+            "value": "Copperbank Logistics",
+            "quote": "for Copperbank Logistics"
+          }
+        ]
+      },
+      {
+        "action": "notes",
+        "text": "Birchpath Advisory proposes one discovery workshop at €3,000 one-time and one implementation project at €12,000 one-time for Copperbank Logistics.\n\nImplementation has three milestones over eight weeks. Support at €1,500/month is optional and excluded from the committed price.\n\nGenerate the PDF proposal, HTML proposal, and HTML email now."
+      },
+      {
+        "action": "select",
+        "productId": "discovery-workshop",
+        "quantity": 1,
+        "quote": "one discovery workshop"
+      },
+      {
+        "action": "select",
+        "productId": "implementation-project",
+        "quantity": 1,
+        "quote": "one implementation project"
+      },
+      {
+        "action": "draft",
+        "draft": {
+          "headline": "Proposal — Discovery + Implementation for Copperbank Logistics",
+          "summary": "Birchpath Advisory will deliver one discovery workshop and one implementation project for Copperbank Logistics. Implementation is structured across three milestones over eight weeks. Optional monthly support is available but excluded from the committed price.",
+          "needs": [
+            {
+              "text": "Run one discovery workshop and execute the implementation project with a three-milestone, eight-week schedule.",
+              "evidenceQuote": "Implementation has three milestones over eight weeks."
+            }
+          ],
+          "recommendations": [
+            {
+              "productId": "discovery-workshop",
+              "quantity": 1,
+              "rationale": "One discovery workshop as requested to gather requirements and align stakeholders.",
+              "evidenceQuote": "one discovery workshop at €3,000 one-time"
+            },
+            {
+              "productId": "implementation-project",
+              "quantity": 1,
+              "rationale": "Implementation project delivered in three milestones over eight weeks.",
+              "evidenceQuote": "one implementation project at €12,000 one-time"
+            }
+          ],
+          "timeline": [
+            {
+              "phase": "Implementation",
+              "detail": "Three milestones over eight weeks.",
+              "evidenceQuote": "Implementation has three milestones over eight weeks."
+            }
+          ],
+          "assumptions": [
+            "Optional support at €1,500/month is available but excluded from the committed price."
+          ],
+          "openQuestions": [],
+          "nextStep": "Generate PDF, HTML proposal and HTML email and share with Copperbank Logistics."
+        }
+      }
+    ],
+    "generate": true
+  },
+  {
+    "action": "batch",
+    "changes": [
+      {
+        "action": "start",
+        "mode": "custom"
+      },
+      {
+        "action": "seller",
+        "fields": [
+          {
+            "field": "name",
+            "quote": "Birchpath Advisory proposes one discovery workshop at €3,000 one-time and one implementation project at €12,000 one-time for Copperbank Logistics.",
+            "value": "Birchpath Advisory"
+          }
+        ]
+      },
+      {
+        "action": "product",
+        "billing": {
+          "quote": "one-time",
+          "value": "once"
+        },
+        "description": null,
+        "id": "discovery-workshop",
+        "name": {
+          "quote": "one discovery workshop",
+          "value": "Discovery Workshop"
+        },
+        "price": {
+          "basis": "verified",
+          "currency": "EUR",
+          "quote": "€3,000 one-time",
+          "value": "3000"
+        },
+        "unitLabel": null
+      },
+      {
+        "action": "product",
+        "billing": {
+          "quote": "one-time",
+          "value": "once"
+        },
+        "description": null,
+        "id": "implementation-project",
+        "name": {
+          "quote": "one implementation project",
+          "value": "Implementation Project"
+        },
+        "price": {
+          "basis": "verified",
+          "currency": "EUR",
+          "quote": "€12,000 one-time",
+          "value": "12000"
+        },
+        "unitLabel": null
+      },
+      {
+        "action": "product",
+        "billing": {
+          "quote": "€1,500/month",
+          "value": "monthly"
+        },
+        "description": null,
+        "id": "support-monthly",
+        "name": {
+          "quote": "Support at €1,500/month is optional and excluded from the committed price.",
+          "value": "Support"
+        },
+        "price": {
+          "basis": "verified",
+          "currency": "EUR",
+          "quote": "€1,500/month",
+          "value": "1500"
+        },
+        "unitLabel": null
+      },
+      {
+        "action": "customer",
+        "fields": [
+          {
+            "field": "name",
+            "quote": "for Copperbank Logistics",
+            "value": "Copperbank Logistics"
+          }
+        ]
+      },
+      {
+        "action": "notes",
+        "text": "Birchpath Advisory proposes one discovery workshop at €3,000 one-time and one implementation project at €12,000 one-time for Copperbank Logistics.\n\nImplementation has three milestones over eight weeks. Support at €1,500/month is optional and excluded from the committed price.\n\nGenerate the PDF proposal, HTML proposal, and HTML email now."
+      },
+      {
+        "action": "select",
+        "productId": "discovery-workshop",
+        "quantity": 1,
+        "quote": "one discovery workshop"
+      },
+      {
+        "action": "select",
+        "productId": "implementation-project",
+        "quantity": 1,
+        "quote": "one implementation project"
+      },
+      {
+        "action": "draft",
+        "draft": {
+          "assumptions": [
+            "Optional support at €1,500/month is available but excluded from the committed price."
+          ],
+          "headline": "Proposal — Discovery + Implementation for Copperbank Logistics",
+          "needs": [
+            {
+              "evidenceQuote": "Implementation has three milestones over eight weeks.",
+              "text": "Run one discovery workshop and execute the implementation project with a three-milestone, eight-week schedule."
+            }
+          ],
+          "nextStep": "Generate PDF, HTML proposal and HTML email and share with Copperbank Logistics.",
+          "openQuestions": [],
+          "recommendations": [
+            {
+              "evidenceQuote": "one discovery workshop at €3,000 one-time",
+              "productId": "discovery-workshop",
+              "quantity": 1,
+              "rationale": "One discovery workshop as requested to gather requirements and align stakeholders."
+            },
+            {
+              "evidenceQuote": "one implementation project at €12,000 one-time",
+              "productId": "implementation-project",
+              "quantity": 1,
+              "rationale": "Implementation project delivered in three milestones over eight weeks."
+            }
+          ],
+          "summary": "Birchpath Advisory will deliver one discovery workshop and one implementation project for Copperbank Logistics. Implementation is structured across three milestones over eight weeks. Optional monthly support is available but excluded from the committed price.",
+          "timeline": [
+            {
+              "detail": "Three milestones over eight weeks.",
+              "evidenceQuote": "Implementation has three milestones over eight weeks.",
+              "phase": "Implementation"
+            }
+          ]
+        }
+      }
+    ],
+    "generate": true,
+    "revision": 0
+  },
+  {
+    "action": "batch",
+    "changes": [
+      {
+        "action": "start",
+        "mode": "custom"
+      },
+      {
+        "action": "seller",
+        "fields": [
+          {
+            "field": "name",
+            "quote": "Birchpath Advisory proposes one discovery workshop at €3,000 one-time and one implementation project at €12,000 one-time for Copperbank Logistics.",
+            "value": "Birchpath Advisory"
+          }
+        ]
+      },
+      {
+        "action": "product",
+        "billing": {
+          "quote": "one-time",
+          "value": "once"
+        },
+        "description": null,
+        "id": "discovery-workshop",
+        "name": {
+          "quote": "one discovery workshop",
+          "value": "Discovery Workshop"
+        },
+        "price": {
+          "basis": "verified",
+          "currency": "EUR",
+          "quote": "€3,000 one-time",
+          "value": "3000"
+        },
+        "unitLabel": null
+      },
+      {
+        "action": "product",
+        "billing": {
+          "quote": "one-time",
+          "value": "once"
+        },
+        "description": null,
+        "id": "implementation-project",
+        "name": {
+          "quote": "one implementation project",
+          "value": "Implementation Project"
+        },
+        "price": {
+          "basis": "verified",
+          "currency": "EUR",
+          "quote": "€12,000 one-time",
+          "value": "12000"
+        },
+        "unitLabel": null
+      },
+      {
+        "action": "product",
+        "billing": {
+          "quote": "€1,500/month",
+          "value": "monthly"
+        },
+        "description": null,
+        "id": "support-monthly",
+        "name": {
+          "quote": "Support at €1,500/month is optional and excluded from the committed price.",
+          "value": "Support"
+        },
+        "price": {
+          "basis": "verified",
+          "currency": "EUR",
+          "quote": "€1,500/month",
+          "value": "1500"
+        },
+        "unitLabel": null
+      },
+      {
+        "action": "customer",
+        "fields": [
+          {
+            "field": "company",
+            "quote": "for Copperbank Logistics",
+            "value": "Copperbank Logistics"
+          }
+        ]
+      },
+      {
+        "action": "notes",
+        "text": "Birchpath Advisory proposes one discovery workshop at €3,000 one-time and one implementation project at €12,000 one-time for Copperbank Logistics.\n\nImplementation has three milestones over eight weeks. Support at €1,500/month is optional and excluded from the committed price.\n\nGenerate the PDF proposal, HTML proposal, and HTML email now."
+      },
+      {
+        "action": "select",
+        "productId": "discovery-workshop",
+        "quantity": 1,
+        "quote": "one discovery workshop"
+      },
+      {
+        "action": "select",
+        "productId": "implementation-project",
+        "quantity": 1,
+        "quote": "one implementation project"
+      },
+      {
+        "action": "draft",
+        "draft": {
+          "assumptions": [
+            "Optional support at €1,500/month is available but excluded from the committed price."
+          ],
+          "headline": "Proposal — Discovery + Implementation for Copperbank Logistics",
+          "needs": [
+            {
+              "evidenceQuote": "Implementation has three milestones over eight weeks.",
+              "text": "Run one discovery workshop and execute the implementation project with a three-milestone, eight-week schedule."
+            }
+          ],
+          "nextStep": "Generate PDF, HTML proposal and HTML email and share with Copperbank Logistics.",
+          "openQuestions": [],
+          "recommendations": [
+            {
+              "evidenceQuote": "one discovery workshop at €3,000 one-time",
+              "productId": "discovery-workshop",
+              "quantity": 1,
+              "rationale": "One discovery workshop as requested to gather requirements and align stakeholders."
+            },
+            {
+              "evidenceQuote": "one implementation project at €12,000 one-time",
+              "productId": "implementation-project",
+              "quantity": 1,
+              "rationale": "Implementation project delivered in three milestones over eight weeks."
+            }
+          ],
+          "summary": "Birchpath Advisory will deliver one discovery workshop and one implementation project for Copperbank Logistics. Implementation is structured across three milestones over eight weeks. Optional monthly support is available but excluded from the committed price.",
+          "timeline": [
+            {
+              "detail": "Three milestones over eight weeks.",
+              "evidenceQuote": "Implementation has three milestones over eight weeks.",
+              "phase": "Implementation"
+            }
+          ]
+        }
+      }
+    ],
+    "generate": true,
+    "revision": 0
+  }
+]

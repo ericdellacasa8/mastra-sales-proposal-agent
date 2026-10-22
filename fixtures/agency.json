@@ -1,0 +1,126 @@
+{
+  "commercial": {
+    "seller": {
+      "name": "Demo Mossline Creative",
+      "email": "studio@mossline.example",
+      "tagline": "A CLEAR CONTENT PROGRAM",
+      "website": "https://mossline.example",
+      "description": "Fictional marketing agency.",
+      "logo": {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAUklEQVR4nGOwj1BlGEg8oJaPOgCXA/6jYUKGoKsnSf+oAwalA6hqASE9ow4YdcCoAwalAwa8IBp1wKgDRh0w4A6gqgWE9Iw6YNQBxDiApnjUAQCGcCgEt6VNCQAAAABJRU5ErkJggg==",
+        "alt": "Mossline tiled mark"
+      },
+      "colors": {
+        "ink": "#092238",
+        "muted": "#475569",
+        "accent": "#3F5825",
+        "soft": "#EFF4E9",
+        "white": "#FFFFFF",
+        "canvas": "#F3F5F5",
+        "border": "#D3DEDF",
+        "dark": "#293F1A"
+      }
+    },
+    "catalog": {
+      "version": "agency-2026-01",
+      "currency": "USD",
+      "products": [
+        {
+          "id": "editorial-retainer",
+          "name": "Editorial coordination retainer",
+          "description": "Editorial coordination retainer as scoped in the discovery notes.",
+          "unitPriceCents": 160000,
+          "billing": "monthly",
+          "maxQuantity": 1
+        },
+        {
+          "id": "article-delivery",
+          "name": "Article deliverable",
+          "description": "Article deliverable as scoped in the discovery notes.",
+          "unitPriceCents": 18500,
+          "billing": "monthly",
+          "maxQuantity": 20,
+          "unitLabel": "articles"
+        },
+        {
+          "id": "design-delivery",
+          "name": "Design deliverable",
+          "description": "Design deliverable as scoped in the discovery notes.",
+          "unitPriceCents": 9500,
+          "billing": "monthly",
+          "maxQuantity": 30,
+          "unitLabel": "assets"
+        },
+        {
+          "id": "content-kickoff",
+          "name": "Content kickoff",
+          "description": "Content kickoff as scoped in the discovery notes.",
+          "unitPriceCents": 35000,
+          "billing": "once",
+          "maxQuantity": 1
+        }
+      ]
+    },
+    "terms": [
+      "Fictional demonstration only. USD; taxes excluded; no discounts.",
+      "Scope, payment schedule and start date require confirmation.",
+      "Estimates are not a contract commitment."
+    ]
+  },
+  "discovery": {
+    "customer": {
+      "name": "Sample Buyer E",
+      "company": "Fictional Meadow Goods",
+      "email": "buyer-e@example.com"
+    },
+    "notes": "FICTIONAL DEMO. The brand needs a defined monthly editorial schedule and review process. Include 1 Editorial coordination retainer. Include 4 Article deliverable. Include 6 Design deliverable. Include 1 Content kickoff. Scope and start date have not been confirmed. No quantified business outcomes were measured."
+  },
+  "draft": {
+    "headline": "A content program with a defined scope",
+    "summary": "Coordinate editorial planning and a specified set of monthly content deliverables.",
+    "needs": [
+      {
+        "text": "The brand needs a defined monthly editorial schedule and review process.",
+        "evidenceQuote": "The brand needs a defined monthly editorial schedule and review process."
+      }
+    ],
+    "recommendations": [
+      {
+        "productId": "editorial-retainer",
+        "quantity": 1,
+        "rationale": "Coordinate the editorial schedule and review process.",
+        "evidenceQuote": "Include 1 Editorial coordination retainer."
+      },
+      {
+        "productId": "article-delivery",
+        "quantity": 4,
+        "rationale": "Prepare four articles within the agreed editorial scope.",
+        "evidenceQuote": "Include 4 Article deliverable."
+      },
+      {
+        "productId": "design-delivery",
+        "quantity": 6,
+        "rationale": "Prepare six supporting design assets.",
+        "evidenceQuote": "Include 6 Design deliverable."
+      },
+      {
+        "productId": "content-kickoff",
+        "quantity": 1,
+        "rationale": "Confirm the initial brief and approval contacts.",
+        "evidenceQuote": "Include 1 Content kickoff."
+      }
+    ],
+    "timeline": [
+      {
+        "phase": "Scope review",
+        "detail": "Confirm deliverables and sequencing before scheduling work.",
+        "evidenceQuote": null
+      }
+    ],
+    "assumptions": [],
+    "openQuestions": [
+      "Who will consolidate feedback on drafts?"
+    ],
+    "nextStep": "Reply to review the proposed scope and confirm the next conversation."
+  }
+}

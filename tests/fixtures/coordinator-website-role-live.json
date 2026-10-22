@@ -1,0 +1,222 @@
+[
+  {
+    "seller": "Silverquill",
+    "customer": "Rivergate",
+    "summary": "Synthetic proposal context for Silverquill and Rivergate. Website retrieval failed; screenshot observations remain unverified.",
+    "intent": "research",
+    "websiteProducts": [
+      {
+        "name": "The Rivergate Customer Platform",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Marketing Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Sales Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Service Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Agent Hub",
+        "url": "https://www.rivergate.example.com/products"
+      }
+    ],
+    "websiteRoles": [
+      {
+        "url": "https://www.rivergate.example.com/products",
+        "role": "customer"
+      },
+      {
+        "url": "https://silverquill.example.com/business/pricing/#quillchat",
+        "role": "pricing"
+      }
+    ]
+  },
+  {
+    "seller": "Silverquill",
+    "customer": "Rivergate",
+    "summary": "Synthetic proposal context for Silverquill and Rivergate. Website retrieval failed; screenshot observations remain unverified.",
+    "intent": "research",
+    "websiteProducts": [
+      {
+        "name": "The Rivergate Customer Platform",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Marketing Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Sales Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Service Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Agent Hub",
+        "url": "https://www.rivergate.example.com/products"
+      }
+    ],
+    "websiteRoles": [
+      {
+        "url": "https://www.rivergate.example.com/products",
+        "role": "customer"
+      },
+      {
+        "url": "https://silverquill.example.com/business/pricing/#quillchat",
+        "role": "pricing"
+      }
+    ]
+  },
+  {
+    "seller": "Silverquill",
+    "customer": "Rivergate",
+    "summary": "Synthetic proposal context for Silverquill and Rivergate. Website retrieval failed; screenshot observations remain unverified.",
+    "intent": "research",
+    "websiteProducts": [
+      {
+        "name": "The Rivergate Customer Platform",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Marketing Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Sales Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Service Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Agent Hub",
+        "url": "https://www.rivergate.example.com/products"
+      }
+    ],
+    "websiteRoles": [
+      {
+        "url": "https://www.rivergate.example.com/products",
+        "role": "customer"
+      },
+      {
+        "url": "https://silverquill.example.com/business/pricing/#quillchat",
+        "role": "pricing"
+      }
+    ],
+    "imageObservations": [
+      {
+        "index": 0,
+        "text": "Synthetic screenshot observation: Premium seat €105 / month. Custom tier: Contact sales. Image-derived values are unverified."
+      }
+    ]
+  },
+  {
+    "seller": "Silverquill",
+    "customer": "Rivergate",
+    "summary": "Synthetic proposal context for Silverquill and Rivergate. Website retrieval failed; screenshot observations remain unverified.",
+    "intent": "research",
+    "websiteProducts": [
+      {
+        "name": "The Rivergate Customer Platform",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Marketing Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Sales Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Service Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Agent Hub",
+        "url": "https://www.rivergate.example.com/products"
+      }
+    ],
+    "websiteRoles": [
+      {
+        "url": "https://www.rivergate.example.com/products",
+        "role": "customer"
+      },
+      {
+        "url": "https://silverquill.example.com/business/pricing/#quillchat",
+        "role": "pricing"
+      }
+    ],
+    "imageObservations": [
+      {
+        "index": 0,
+        "text": "Synthetic screenshot observation: Premium seat €105 / month. Custom tier: Contact sales. Image-derived values are unverified."
+      }
+    ]
+  },
+  {
+    "seller": "Silverquill",
+    "customer": "Rivergate",
+    "offerings": [
+      {
+        "name": "Premium seat",
+        "quantity": 100,
+        "included": true,
+        "unitPrice": "105.00",
+        "currency": "EUR",
+        "billing": "monthly",
+        "basis": "hypothetical",
+        "description": "Requested 100 Premium seats for 12 months; customer-provided expected totals: €10,500/month and €126,000 over 12 months. Price per seat taken from provided screenshot and remains unverified; requires human approval."
+      }
+    ],
+    "summary": "A hypothetical proposal for the requested Premium seats. Screenshot observations require explicit salesperson authorization.",
+    "intent": "proposal",
+    "websiteProducts": [
+      {
+        "name": "The Rivergate Customer Platform",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Marketing Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Sales Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Service Hub",
+        "url": "https://www.rivergate.example.com/products"
+      },
+      {
+        "name": "Agent Hub",
+        "url": "https://www.rivergate.example.com/products"
+      }
+    ],
+    "websiteRoles": [
+      {
+        "url": "https://www.rivergate.example.com/products",
+        "role": "customer"
+      },
+      {
+        "url": "https://silverquill.example.com/business/pricing/#quillchat",
+        "role": "pricing"
+      }
+    ],
+    "imageObservations": [
+      {
+        "index": 0,
+        "text": "Synthetic screenshot observation: Premium seat €105 / month. Custom tier: Contact sales. Image-derived values are unverified."
+      }
+    ]
+  }
+]

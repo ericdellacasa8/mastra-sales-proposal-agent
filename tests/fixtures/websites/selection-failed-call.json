@@ -1,0 +1,40 @@
+{
+  "action": "batch",
+  "revision": 1,
+  "changes": [
+    {
+      "action": "select",
+      "productId": "scale",
+      "quantity": 1,
+      "quote": "Use Scale only, quantity 1, at its approved monthly subscription price."
+    },
+    {
+      "action": "draft",
+      "draft": {
+        "headline": null,
+        "summary": "Embed CedarCanvas Scale into HarborLedger to provide an embeddable email builder for transactional templates. Optimize and Enterprise are shown only as comparison alternatives.",
+        "needs": [
+          {
+            "text": "Embeddable email builder for transactional templates.",
+            "evidenceQuote": "Assume HarborLedger needs an embeddable email builder for transactional templates."
+          }
+        ],
+        "recommendations": [
+          {
+            "productId": "scale",
+            "quantity": 1,
+            "rationale": "Scale offers the embeddable email builder, team collaboration, and export capacity suited to HarborLedger's transactional template needs.",
+            "evidenceQuote": "Use Scale only, quantity 1, at its approved monthly subscription price."
+          }
+        ],
+        "timeline": null,
+        "assumptions": [
+          "Pricing shown in the catalog reflects published monthly prices for approved plans."
+        ],
+        "openQuestions": [],
+        "nextStep": "Generate proposal previews (PDF, HTML proposal, HTML email)."
+      }
+    }
+  ],
+  "generate": true
+}

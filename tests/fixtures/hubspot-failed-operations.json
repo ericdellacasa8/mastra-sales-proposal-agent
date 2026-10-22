@@ -1,0 +1,910 @@
+[
+  {
+    "action": "batch",
+    "revision": 1,
+    "changes": [
+      {
+        "action": "seller",
+        "fields": [
+          {
+            "field": "name",
+            "sourceMessageId": null,
+            "value": "Silverquill",
+            "quote": "i am part of the sales team at silverquill https://silverquill.example.com/ and you can find all the pricing information here https://silverquill.example.com/business/pricing/#quillchat."
+          }
+        ]
+      },
+      {
+        "action": "product",
+        "id": "quillchat-premium",
+        "name": {
+          "sourceMessageId": null,
+          "value": "Premium seat",
+          "quote": "Premium seat"
+        },
+        "description": {
+          "sourceMessageId": null,
+          "value": "Unsubstantiated workflow automation capability",
+          "quote": "Unsubstantiated workflow automation capability"
+        },
+        "price": {
+          "sourceMessageId": null,
+          "value": "105",
+          "quote": "€105 / month",
+          "currency": "EUR",
+          "basis": "hypothetical"
+        },
+        "billing": {
+          "sourceMessageId": null,
+          "value": "monthly",
+          "quote": "€105 / month"
+        },
+        "unitLabel": {
+          "sourceMessageId": null,
+          "value": "seat",
+          "quote": "seat"
+        }
+      },
+      {
+        "action": "customer",
+        "revision": 0,
+        "fields": [
+          {
+            "field": "company",
+            "sourceMessageId": null,
+            "value": "Rivergate",
+            "quote": "one of our prospects called Rivergate"
+          }
+        ]
+      },
+      {
+        "action": "notes",
+        "revision": 0,
+        "sourceMessageId": null,
+        "text": "Request: 100 Premium seats for Rivergate. Currency: EUR. Pricing confirmed as €105 / month from the provided screenshot (salesperson authorized). Rivergate product context fetched from their public product page."
+      },
+      {
+        "action": "select",
+        "productId": "quillchat-premium",
+        "quantity": 100,
+        "quote": "change it to 100 seats and i confrm Premium pricing as €105 / month"
+      },
+      {
+        "action": "draft",
+        "draft": {
+          "headline": "Silverquill QuillChat Business — Rivergate proposal",
+          "summary": "Proposal for Rivergate to provision 100 Premium QuillChat Business seats at €105/month per seat (price authorized by salesperson from screenshot). Includes one-time and monthly investment breakdown in the generated preview.",
+          "needs": [
+            {
+              "text": "Premium QuillChat Business seats for Rivergate",
+              "evidenceQuote": "change it to 100 seats and i confrm Premium pricing as €105 / month"
+            }
+          ],
+          "recommendations": [
+            {
+              "productId": "quillchat-premium",
+              "quantity": 100,
+              "rationale": "Premium seat provides 5x more usage than Standard and removes the 5‑hour limit — suited for Rivergate’s high-usage teams.",
+              "evidenceQuote": "Unsubstantiated workflow automation capability"
+            }
+          ],
+          "timeline": null,
+          "assumptions": [
+            "Pricing sourced from an unverified screenshot and recorded as a hypothetical salesperson-authorized amount."
+          ],
+          "openQuestions": [],
+          "nextStep": "Review this draft and confirm any additional offerings, discounts, or customer contact details to include."
+        }
+      }
+    ],
+    "generate": true
+  },
+  {
+    "action": "batch",
+    "revision": 1,
+    "changes": [
+      {
+        "action": "seller",
+        "fields": [
+          {
+            "field": "name",
+            "quote": "i am part of the sales team at silverquill https://silverquill.example.com/ and you can find all the pricing information here https://silverquill.example.com/business/pricing/#quillchat.",
+            "sourceMessageId": null,
+            "value": "Silverquill"
+          }
+        ]
+      },
+      {
+        "action": "product",
+        "billing": {
+          "quote": "€105 / month",
+          "sourceMessageId": null,
+          "value": "monthly"
+        },
+        "description": {
+          "quote": "Unsubstantiated workflow automation capability",
+          "sourceMessageId": null,
+          "value": "Unsubstantiated workflow automation capability"
+        },
+        "id": "quillchat-premium",
+        "name": {
+          "quote": "Premium seat",
+          "sourceMessageId": null,
+          "value": "Premium seat"
+        },
+        "price": {
+          "basis": "hypothetical",
+          "currency": "EUR",
+          "quote": "€105 / month",
+          "sourceMessageId": null,
+          "value": "105"
+        },
+        "unitLabel": {
+          "quote": "seat",
+          "sourceMessageId": null,
+          "value": "seat"
+        }
+      },
+      {
+        "action": "customer",
+        "fields": [
+          {
+            "field": "company",
+            "quote": "one of our prospects called Rivergate",
+            "sourceMessageId": null,
+            "value": "Rivergate"
+          }
+        ]
+      },
+      {
+        "action": "notes",
+        "sourceMessageId": null,
+        "text": "Request: 100 Premium seats for Rivergate. Currency: EUR. Pricing confirmed as €105 / month from the provided screenshot (salesperson authorized). Rivergate product context fetched from their public product page."
+      },
+      {
+        "action": "select",
+        "productId": "quillchat-premium",
+        "quantity": 100,
+        "quote": "change it to 100 seats and i confrm Premium pricing as €105 / month"
+      },
+      {
+        "action": "draft",
+        "draft": {
+          "assumptions": [
+            "Pricing sourced from an unverified screenshot and recorded as a hypothetical salesperson-authorized amount."
+          ],
+          "headline": "Silverquill QuillChat Business — Rivergate proposal",
+          "needs": [
+            {
+              "evidenceQuote": "change it to 100 seats and i confrm Premium pricing as €105 / month",
+              "text": "Premium QuillChat Business seats for Rivergate"
+            }
+          ],
+          "nextStep": "Review this draft and confirm any additional offerings, discounts, or customer contact details to include.",
+          "openQuestions": [],
+          "recommendations": [
+            {
+              "evidenceQuote": "Unsubstantiated workflow automation capability",
+              "productId": "quillchat-premium",
+              "quantity": 100,
+              "rationale": "Premium seat provides 5x more usage than Standard and removes the 5‑hour limit — suited for Rivergate’s high-usage teams."
+            }
+          ],
+          "summary": "Proposal for Rivergate to provision 100 Premium QuillChat Business seats at €105/month per seat (price authorized by salesperson from screenshot). Includes one-time and monthly investment breakdown in the generated preview.",
+          "timeline": null
+        }
+      }
+    ],
+    "generate": true
+  },
+  {
+    "action": "batch",
+    "revision": 0,
+    "changes": [
+      {
+        "action": "start",
+        "mode": "custom"
+      },
+      {
+        "action": "seller",
+        "fields": [
+          {
+            "field": "name",
+            "quote": "i am part of the sales team at silverquill https://silverquill.example.com/ and you can find all the pricing information here https://silverquill.example.com/business/pricing/#quillchat.",
+            "sourceMessageId": null,
+            "value": "Silverquill"
+          }
+        ]
+      },
+      {
+        "action": "product",
+        "billing": {
+          "quote": "€105 / month",
+          "sourceMessageId": null,
+          "value": "monthly"
+        },
+        "description": {
+          "quote": "Unsubstantiated workflow automation capability",
+          "sourceMessageId": null,
+          "value": "Unsubstantiated workflow automation capability"
+        },
+        "id": "quillchat-premium",
+        "name": {
+          "quote": "Premium seat",
+          "sourceMessageId": null,
+          "value": "Premium seat"
+        },
+        "price": {
+          "basis": "hypothetical",
+          "currency": "EUR",
+          "quote": "€105 / month",
+          "sourceMessageId": null,
+          "value": "105"
+        },
+        "unitLabel": {
+          "quote": "seat",
+          "sourceMessageId": null,
+          "value": "seat"
+        }
+      },
+      {
+        "action": "customer",
+        "fields": [
+          {
+            "field": "company",
+            "quote": "one of our prospects called Rivergate",
+            "sourceMessageId": null,
+            "value": "Rivergate"
+          }
+        ]
+      },
+      {
+        "action": "notes",
+        "sourceMessageId": null,
+        "text": "Request: 100 Premium seats for Rivergate. Currency: EUR. Pricing confirmed as €105 / month from the provided screenshot (salesperson authorized). Rivergate product context fetched from their public product page."
+      },
+      {
+        "action": "select",
+        "productId": "quillchat-premium",
+        "quantity": 100,
+        "quote": "change it to 100 seats and i confrm Premium pricing as €105 / month"
+      },
+      {
+        "action": "draft",
+        "draft": {
+          "assumptions": [
+            "Pricing sourced from an unverified screenshot and recorded as a hypothetical salesperson-authorized amount."
+          ],
+          "headline": "Silverquill QuillChat Business — Rivergate proposal",
+          "needs": [
+            {
+              "evidenceQuote": "change it to 100 seats and i confrm Premium pricing as €105 / month",
+              "text": "Premium QuillChat Business seats for Rivergate"
+            }
+          ],
+          "nextStep": "Review this draft and confirm any additional offerings, discounts, or customer contact details to include.",
+          "openQuestions": [],
+          "recommendations": [
+            {
+              "evidenceQuote": "Unsubstantiated workflow automation capability",
+              "productId": "quillchat-premium",
+              "quantity": 100,
+              "rationale": "Premium seat provides 5x more usage than Standard and removes the 5‑hour limit — suited for Rivergate’s high-usage teams."
+            }
+          ],
+          "summary": "Proposal for Rivergate to provision 100 Premium QuillChat Business seats at €105/month per seat (price authorized by salesperson from screenshot). Includes one-time and monthly investment breakdown in the generated preview.",
+          "timeline": null
+        }
+      }
+    ],
+    "generate": true
+  },
+  {
+    "action": "batch",
+    "revision": 1,
+    "changes": [
+      {
+        "action": "seller",
+        "fields": [
+          {
+            "field": "name",
+            "sourceMessageId": null,
+            "value": "Silverquill",
+            "quote": "i am part of the sales team at silverquill https://silverquill.example.com/ and you can find all the pricing information here https://silverquill.example.com/business/pricing/#quillchat."
+          }
+        ]
+      },
+      {
+        "action": "product",
+        "id": "quillchat-premium",
+        "name": {
+          "sourceMessageId": null,
+          "value": "Premium seat",
+          "quote": "Premium seat"
+        },
+        "description": {
+          "sourceMessageId": null,
+          "value": "Unsubstantiated workflow automation capability",
+          "quote": "Unsubstantiated workflow automation capability"
+        },
+        "price": {
+          "sourceMessageId": null,
+          "value": "105",
+          "quote": "€105 / month",
+          "currency": "EUR",
+          "basis": "hypothetical"
+        },
+        "billing": {
+          "sourceMessageId": null,
+          "value": "monthly",
+          "quote": "€105 / month"
+        },
+        "unitLabel": {
+          "sourceMessageId": null,
+          "value": "seat",
+          "quote": "seat"
+        }
+      },
+      {
+        "action": "customer",
+        "fields": [
+          {
+            "field": "company",
+            "sourceMessageId": null,
+            "value": "Rivergate",
+            "quote": "one of our prospects called Rivergate"
+          }
+        ]
+      },
+      {
+        "action": "notes",
+        "sourceMessageId": null,
+        "text": "Request: 100 Premium seats for Rivergate. Currency: EUR. Pricing confirmed as €105 / month from the provided screenshot (salesperson authorized). Rivergate product context fetched from their public product page."
+      },
+      {
+        "action": "select",
+        "productId": "quillchat-premium",
+        "quantity": 100,
+        "quote": "change it to 100 seats and i confrm Premium pricing as €105 / month"
+      },
+      {
+        "action": "draft",
+        "draft": {
+          "headline": "Silverquill QuillChat Business — Rivergate proposal",
+          "summary": "Proposal for Rivergate to provision 100 Premium QuillChat Business seats at €105/month per seat (price authorized by salesperson from screenshot).",
+          "needs": [
+            {
+              "text": "Premium QuillChat Business seats for Rivergate",
+              "evidenceQuote": "change it to 100 seats and i confrm Premium pricing as €105 / month"
+            }
+          ],
+          "recommendations": [
+            {
+              "productId": "quillchat-premium",
+              "quantity": 100,
+              "rationale": "Premium seat provides 5x more usage than Standard and removes the 5‑hour limit — suited for Rivergate’s high-usage teams.",
+              "evidenceQuote": "Unsubstantiated workflow automation capability"
+            }
+          ],
+          "timeline": null,
+          "assumptions": [
+            "Pricing sourced from an unverified screenshot and recorded as a hypothetical salesperson-authorized amount."
+          ],
+          "openQuestions": [],
+          "nextStep": "Review this draft and confirm any additional offerings, discounts, or customer contact details to include."
+        }
+      }
+    ],
+    "generate": true
+  },
+  {
+    "action": "batch",
+    "changes": [
+      {
+        "action": "start",
+        "mode": "custom"
+      },
+      {
+        "action": "seller",
+        "fields": [
+          {
+            "field": "name",
+            "quote": "i am part of the sales team at silverquill https://silverquill.example.com/ and you can find all the pricing information here https://silverquill.example.com/business/pricing/#quillchat.",
+            "sourceMessageId": null,
+            "value": "Silverquill"
+          }
+        ]
+      },
+      {
+        "action": "product",
+        "billing": {
+          "quote": "€105 / month",
+          "sourceMessageId": null,
+          "value": "monthly"
+        },
+        "description": {
+          "quote": "Unsubstantiated workflow automation capability",
+          "sourceMessageId": null,
+          "value": "Unsubstantiated workflow automation capability"
+        },
+        "id": "quillchat-premium",
+        "name": {
+          "quote": "Premium seat",
+          "sourceMessageId": null,
+          "value": "Premium seat"
+        },
+        "price": {
+          "basis": "hypothetical",
+          "currency": "EUR",
+          "quote": "€105 / month",
+          "sourceMessageId": null,
+          "value": "105"
+        },
+        "unitLabel": {
+          "quote": "seat",
+          "sourceMessageId": null,
+          "value": "seat"
+        }
+      },
+      {
+        "action": "customer",
+        "fields": [
+          {
+            "field": "company",
+            "quote": "one of our prospects called Rivergate",
+            "sourceMessageId": null,
+            "value": "Rivergate"
+          }
+        ]
+      },
+      {
+        "action": "notes",
+        "sourceMessageId": null,
+        "text": "Request: 100 Premium seats for Rivergate. Currency: EUR. Pricing confirmed as €105 / month from the provided screenshot (salesperson authorized). Rivergate product context fetched from their public product page."
+      },
+      {
+        "action": "select",
+        "productId": "quillchat-premium",
+        "quantity": 100,
+        "quote": "change it to 100 seats and i confrm Premium pricing as €105 / month"
+      },
+      {
+        "action": "draft",
+        "draft": {
+          "assumptions": [
+            "Pricing sourced from an unverified screenshot and recorded as a hypothetical salesperson-authorized amount."
+          ],
+          "headline": "Silverquill QuillChat Business — Rivergate proposal",
+          "needs": [
+            {
+              "evidenceQuote": "change it to 100 seats and i confrm Premium pricing as €105 / month",
+              "text": "Premium QuillChat Business seats for Rivergate"
+            }
+          ],
+          "nextStep": "Review this draft and confirm any additional offerings, discounts, or customer contact details to include.",
+          "openQuestions": [],
+          "recommendations": [
+            {
+              "evidenceQuote": "Unsubstantiated workflow automation capability",
+              "productId": "quillchat-premium",
+              "quantity": 100,
+              "rationale": "Premium seat provides 5x more usage than Standard and removes the 5‑hour limit — suited for Rivergate’s high-usage teams."
+            }
+          ],
+          "summary": "Proposal for Rivergate to provision 100 Premium QuillChat Business seats at €105/month per seat (price authorized by salesperson from screenshot).",
+          "timeline": null
+        }
+      }
+    ],
+    "generate": true,
+    "revision": 0
+  },
+  {
+    "action": "batch",
+    "changes": [
+      {
+        "action": "start",
+        "mode": "custom"
+      },
+      {
+        "action": "seller",
+        "fields": [
+          {
+            "field": "name",
+            "quote": "i am part of the sales team at silverquill https://silverquill.example.com/ and you can find all the pricing information here https://silverquill.example.com/business/pricing/#quillchat.",
+            "sourceMessageId": null,
+            "value": "Silverquill"
+          }
+        ]
+      },
+      {
+        "action": "product",
+        "billing": {
+          "quote": "€105 / month",
+          "sourceMessageId": null,
+          "value": "monthly"
+        },
+        "description": {
+          "quote": "Unsubstantiated workflow automation capability",
+          "sourceMessageId": null,
+          "value": "Unsubstantiated workflow automation capability"
+        },
+        "id": "quillchat-premium",
+        "name": {
+          "quote": "Premium seat",
+          "sourceMessageId": null,
+          "value": "Premium seat"
+        },
+        "price": {
+          "basis": "hypothetical",
+          "currency": "EUR",
+          "quote": "€105 / month",
+          "sourceMessageId": null,
+          "value": "105"
+        },
+        "unitLabel": {
+          "quote": "seat",
+          "sourceMessageId": null,
+          "value": "seat"
+        }
+      },
+      {
+        "action": "customer",
+        "fields": [
+          {
+            "field": "company",
+            "quote": "one of our prospects called Rivergate",
+            "sourceMessageId": null,
+            "value": "Rivergate"
+          }
+        ]
+      },
+      {
+        "action": "notes",
+        "sourceMessageId": null,
+        "text": "Request: 100 Premium seats for Rivergate. Currency: EUR. Pricing confirmed as €105 / month from the provided screenshot (salesperson authorized). Rivergate product context fetched from their public product page."
+      },
+      {
+        "action": "select",
+        "productId": "quillchat-premium",
+        "quantity": 100,
+        "quote": "change it to 100 seats and i confrm Premium pricing as €105 / month"
+      },
+      {
+        "action": "draft",
+        "draft": {
+          "assumptions": [
+            "Pricing sourced from an unverified screenshot and recorded as a hypothetical salesperson-authorized amount."
+          ],
+          "headline": "Silverquill QuillChat Business — Rivergate proposal",
+          "needs": [
+            {
+              "evidenceQuote": "change it to 100 seats and i confrm Premium pricing as €105 / month",
+              "text": "Premium QuillChat Business seats for Rivergate"
+            }
+          ],
+          "nextStep": "Review this draft and confirm any additional offerings, discounts, or customer contact details to include.",
+          "openQuestions": [],
+          "recommendations": [
+            {
+              "evidenceQuote": "Unsubstantiated workflow automation capability",
+              "productId": "quillchat-premium",
+              "quantity": 100,
+              "rationale": "Premium seat provides 5x more usage than Standard and removes the 5‑hour limit — suited for Rivergate’s high-usage teams."
+            }
+          ],
+          "summary": "Proposal for Rivergate to provision 100 Premium QuillChat Business seats at €105/month per seat (price authorized by salesperson from screenshot).",
+          "timeline": null
+        }
+      }
+    ],
+    "generate": true,
+    "revision": 1
+  },
+  {
+    "action": "batch",
+    "revision": 1,
+    "changes": [
+      {
+        "action": "start",
+        "mode": "custom"
+      },
+      {
+        "action": "seller",
+        "fields": [
+          {
+            "field": "name",
+            "sourceMessageId": null,
+            "value": "Silverquill",
+            "quote": "i am part of the sales team at silverquill https://silverquill.example.com/ and you can find all the pricing information here https://silverquill.example.com/business/pricing/#quillchat."
+          }
+        ]
+      },
+      {
+        "action": "product",
+        "id": "quillchat-premium",
+        "name": {
+          "value": "Premium seat",
+          "quote": "Premium seat",
+          "sourceMessageId": null
+        },
+        "description": {
+          "value": "Unsubstantiated workflow automation capability",
+          "quote": "Unsubstantiated workflow automation capability",
+          "sourceMessageId": null
+        },
+        "price": {
+          "value": "105",
+          "currency": "EUR",
+          "basis": "hypothetical",
+          "quote": "€105 / month",
+          "sourceMessageId": null
+        },
+        "billing": {
+          "value": "monthly",
+          "quote": "€105 / month",
+          "sourceMessageId": null
+        },
+        "unitLabel": {
+          "value": "seat",
+          "quote": "seat",
+          "sourceMessageId": null
+        }
+      },
+      {
+        "action": "customer",
+        "fields": [
+          {
+            "field": "company",
+            "value": "Rivergate",
+            "quote": "one of our prospects called Rivergate",
+            "sourceMessageId": null
+          }
+        ]
+      },
+      {
+        "action": "notes",
+        "text": "Request: 100 Premium seats for Rivergate. Currency: EUR. Pricing confirmed as €105 / month from the provided screenshot (salesperson authorized). Rivergate product context fetched from their public product page.",
+        "sourceMessageId": null
+      },
+      {
+        "action": "select",
+        "productId": "quillchat-premium",
+        "quantity": 100,
+        "quote": "change it to 100 seats and i confrm Premium pricing as €105 / month"
+      },
+      {
+        "action": "draft",
+        "draft": {
+          "headline": "Silverquill QuillChat Business — Rivergate proposal",
+          "summary": "Proposal for Rivergate to provision 100 Premium QuillChat Business seats at €105/month per seat (price authorized by salesperson from screenshot).",
+          "needs": [
+            {
+              "text": "Premium QuillChat Business seats for Rivergate",
+              "evidenceQuote": "change it to 100 seats and i confrm Premium pricing as €105 / month"
+            }
+          ],
+          "recommendations": [
+            {
+              "productId": "quillchat-premium",
+              "quantity": 100,
+              "rationale": "Premium seat provides 5x more usage than Standard and removes the 5‑hour limit — suited for Rivergate’s high-usage teams.",
+              "evidenceQuote": "Unsubstantiated workflow automation capability"
+            }
+          ],
+          "timeline": null,
+          "assumptions": [
+            "Pricing sourced from an unverified screenshot and recorded as a hypothetical salesperson-authorized amount."
+          ],
+          "openQuestions": [],
+          "nextStep": "Review this draft and confirm any additional offerings, discounts, or customer contact details to include."
+        }
+      }
+    ],
+    "generate": true
+  },
+  {
+    "action": "batch",
+    "revision": 1,
+    "changes": [
+      {
+        "action": "start",
+        "mode": "custom"
+      },
+      {
+        "action": "seller",
+        "fields": [
+          {
+            "field": "name",
+            "sourceMessageId": "8ecc8216-85ff-4fe1-b58f-61fcd59f7275",
+            "value": "Silverquill",
+            "quote": "i am part of the sales team at silverquill https://silverquill.example.com/ and you can find all the pricing information here https://silverquill.example.com/business/pricing/#quillchat."
+          }
+        ]
+      },
+      {
+        "action": "product",
+        "billing": {
+          "quote": "€105 / month",
+          "sourceMessageId": "80c118c9-7c3e-4528-af87-d6082c691ccd",
+          "value": "monthly"
+        },
+        "description": {
+          "quote": "Unsubstantiated workflow automation capability",
+          "sourceMessageId": "34fbc92a3076f05d313d6efacbc6e8b7b56f14ca60f00ab13356a5115c59e474",
+          "value": "Unsubstantiated workflow automation capability"
+        },
+        "id": "quillchat-premium",
+        "name": {
+          "quote": "Premium seat",
+          "sourceMessageId": "34fbc92a3076f05d313d6efacbc6e8b7b56f14ca60f00ab13356a5115c59e474",
+          "value": "Premium seat"
+        },
+        "price": {
+          "basis": "hypothetical",
+          "currency": "EUR",
+          "quote": "€105 / month",
+          "sourceMessageId": "80c118c9-7c3e-4528-af87-d6082c691ccd",
+          "value": "105"
+        },
+        "unitLabel": {
+          "quote": "seat",
+          "sourceMessageId": "34fbc92a3076f05d313d6efacbc6e8b7b56f14ca60f00ab13356a5115c59e474",
+          "value": "seat"
+        }
+      },
+      {
+        "action": "customer",
+        "fields": [
+          {
+            "field": "company",
+            "sourceMessageId": "8ecc8216-85ff-4fe1-b58f-61fcd59f7275",
+            "value": "Rivergate",
+            "quote": "one of our prospects called Rivergate"
+          }
+        ]
+      },
+      {
+        "action": "notes",
+        "text": "Request: 100 Premium seats for Rivergate. Currency: EUR. Pricing confirmed as €105 / month from the provided screenshot (salesperson authorized). Rivergate product context fetched from their public product page."
+      },
+      {
+        "action": "select",
+        "productId": "quillchat-premium",
+        "quantity": 100,
+        "quote": "change it to 100 seats and i confrm Premium pricing as €105 / month",
+        "sourceMessageId": "80c118c9-7c3e-4528-af87-d6082c691ccd"
+      },
+      {
+        "action": "draft",
+        "draft": {
+          "assumptions": [
+            "Pricing sourced from an unverified screenshot and recorded as a hypothetical salesperson-authorized amount."
+          ],
+          "headline": "Silverquill QuillChat Business — Rivergate proposal",
+          "needs": [
+            {
+              "evidenceQuote": "change it to 100 seats and i confrm Premium pricing as €105 / month",
+              "text": "Premium QuillChat Business seats for Rivergate"
+            }
+          ],
+          "nextStep": "Review this draft and confirm any additional offerings, discounts, or customer contact details to include.",
+          "openQuestions": [],
+          "recommendations": [
+            {
+              "evidenceQuote": "Unsubstantiated workflow automation capability",
+              "productId": "quillchat-premium",
+              "quantity": 100,
+              "rationale": "Premium seat provides 5x more usage than Standard and removes the 5‑hour limit — suited for Rivergate’s high-usage teams."
+            }
+          ],
+          "summary": "Proposal for Rivergate to provision 100 Premium QuillChat Business seats at €105/month per seat (price authorized by salesperson from screenshot).",
+          "timeline": null
+        }
+      }
+    ],
+    "generate": true
+  },
+  {
+    "action": "batch",
+    "changes": [
+      {
+        "action": "start",
+        "mode": "custom"
+      },
+      {
+        "action": "seller",
+        "fields": [
+          {
+            "field": "name",
+            "quote": "i am part of the sales team at silverquill https://silverquill.example.com/ and you can find all the pricing information here https://silverquill.example.com/business/pricing/#quillchat. i want you to put together a sales proposal for one of our prospects called Rivergate and can find all the information here https://www.rivergate.example.com/products?hubs_content=www.rivergate.example.com/&hubs_content-cta=footer-features-all. let me know once you have full context",
+            "sourceMessageId": "8ecc8216-85ff-4fe1-b58f-61fcd59f7275",
+            "value": "Silverquill"
+          }
+        ]
+      },
+      {
+        "action": "product",
+        "billing": {
+          "quote": "€105 / month",
+          "sourceMessageId": "80c118c9-7c3e-4528-af87-d6082c691ccd",
+          "value": "monthly"
+        },
+        "description": {
+          "quote": "Unsubstantiated workflow automation capability",
+          "sourceMessageId": "34fbc92a3076f05d313d6efacbc6e8b7b56f14ca60f00ab13356a5115c59e474",
+          "value": "Unsubstantiated workflow automation capability"
+        },
+        "id": "quillchat-premium",
+        "name": {
+          "quote": "Premium seat",
+          "sourceMessageId": "34fbc92a3076f05d313d6efacbc6e8b7b56f14ca60f00ab13356a5115c59e474",
+          "value": "Premium seat"
+        },
+        "price": {
+          "basis": "hypothetical",
+          "currency": "EUR",
+          "quote": "€105 / month",
+          "sourceMessageId": "80c118c9-7c3e-4528-af87-d6082c691ccd",
+          "value": "105"
+        },
+        "unitLabel": {
+          "quote": "seat",
+          "sourceMessageId": "34fbc92a3076f05d313d6efacbc6e8b7b56f14ca60f00ab13356a5115c59e474",
+          "value": "seat"
+        }
+      },
+      {
+        "action": "customer",
+        "fields": [
+          {
+            "field": "company",
+            "quote": "one of our prospects called Rivergate",
+            "sourceMessageId": "8ecc8216-85ff-4fe1-b58f-61fcd59f7275",
+            "value": "Rivergate"
+          }
+        ]
+      },
+      {
+        "action": "notes",
+        "text": "Request: 100 Premium seats for Rivergate. Currency: EUR. Pricing confirmed as €105 / month from the provided screenshot (salesperson authorized). Rivergate product context fetched from their public product page."
+      },
+      {
+        "action": "select",
+        "productId": "quillchat-premium",
+        "quantity": 100,
+        "quote": "change it to 100 seats and i confrm Premium pricing as €105 / month",
+        "sourceMessageId": "80c118c9-7c3e-4528-af87-d6082c691ccd"
+      },
+      {
+        "action": "draft",
+        "draft": {
+          "assumptions": [
+            "Pricing sourced from an unverified screenshot and recorded as a hypothetical salesperson-authorized amount."
+          ],
+          "headline": "Silverquill QuillChat Business — Rivergate proposal",
+          "needs": [
+            {
+              "evidenceQuote": "change it to 100 seats and i confrm Premium pricing as €105 / month",
+              "text": "Premium QuillChat Business seats for Rivergate"
+            }
+          ],
+          "nextStep": "Review this draft and confirm any additional offerings, discounts, or customer contact details to include.",
+          "openQuestions": [],
+          "recommendations": [
+            {
+              "evidenceQuote": "Unsubstantiated workflow automation capability",
+              "productId": "quillchat-premium",
+              "quantity": 100,
+              "rationale": "Premium seat provides 5x more usage than Standard and removes the 5‑hour limit — suited for Rivergate’s high-usage teams."
+            }
+          ],
+          "summary": "Proposal for Rivergate to provision 100 Premium QuillChat Business seats at €105/month per seat (price authorized by salesperson from screenshot).",
+          "timeline": null
+        }
+      }
+    ],
+    "generate": true,
+    "revision": 1
+  }
+]

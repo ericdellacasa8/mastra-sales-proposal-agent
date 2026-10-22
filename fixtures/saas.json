@@ -1,0 +1,112 @@
+{
+  "commercial": {
+    "seller": {
+      "name": "Demo Lumenboard Cloud",
+      "email": "sales@lumenboard.example",
+      "tagline": "A SHARED VIEW OF RELEASE WORK",
+      "website": "https://lumenboard.example",
+      "phone": "+1 202 555 0101",
+      "description": "Fictional SaaS seller.",
+      "logo": {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmUlEQVR4nN3UyxGAMAhF0TRjH5Zm53FrlAQehM+4YPvuGUdtx3m1zEuN/wbQMwH9ceGATlwYgIqrELvjMMIjDiG84mKEZ1yE8I6ziIj4EhEVnyIi4yQiOv5BZMQHRLknUOIdKPEVlPgPlPgT7kAst6UALYLdRQAoQrSJAqQI8Z4GwCGgLS1ghoB3LIA3QrVhBTRLfBfAdOmAG8M2/9ARBcR3AAAAAElFTkSuQmCC",
+        "alt": "Lumenboard diamond mark"
+      },
+      "colors": {
+        "ink": "#092238",
+        "muted": "#475569",
+        "accent": "#254080",
+        "soft": "#EEF1FA",
+        "white": "#FFFFFF",
+        "canvas": "#F3F5F5",
+        "border": "#D3DEDF",
+        "dark": "#172957"
+      }
+    },
+    "catalog": {
+      "version": "saas-2026-01",
+      "currency": "USD",
+      "products": [
+        {
+          "id": "release-hub",
+          "name": "Release coordination hub",
+          "description": "Release coordination hub as scoped in the discovery notes.",
+          "unitPriceCents": 12500,
+          "billing": "monthly",
+          "maxQuantity": 1
+        },
+        {
+          "id": "editor-license",
+          "name": "Editor license",
+          "description": "Editor license as scoped in the discovery notes.",
+          "unitPriceCents": 1999,
+          "billing": "monthly",
+          "maxQuantity": 30,
+          "unitLabel": "licenses"
+        },
+        {
+          "id": "migration-session",
+          "name": "Migration session",
+          "description": "Migration session as scoped in the discovery notes.",
+          "unitPriceCents": 45000,
+          "billing": "once",
+          "maxQuantity": 1
+        }
+      ]
+    },
+    "terms": [
+      "Fictional demonstration only. USD; taxes excluded; no discounts.",
+      "Scope, payment schedule and start date require confirmation.",
+      "Estimates are not a contract commitment."
+    ]
+  },
+  "discovery": {
+    "customer": {
+      "name": "Sample Buyer C",
+      "company": "Fictional Robotics Lab",
+      "email": "buyer-c@example.com"
+    },
+    "notes": "FICTIONAL DEMO. The release team needs one shared checklist and named access for seven editors. Include 1 Release coordination hub. Include 7 Editor license. Include 1 Migration session. Scope and start date have not been confirmed. No quantified business outcomes were measured."
+  },
+  "draft": {
+    "headline": "A shared view of your release work",
+    "summary": "Coordinate release checklists and named editorial ownership in a shared hub.",
+    "needs": [
+      {
+        "text": "The release team needs one shared checklist and named access for seven editors.",
+        "evidenceQuote": "The release team needs one shared checklist and named access for seven editors."
+      }
+    ],
+    "recommendations": [
+      {
+        "productId": "release-hub",
+        "quantity": 1,
+        "rationale": "Keep release checklists in one shared location.",
+        "evidenceQuote": "Include 1 Release coordination hub."
+      },
+      {
+        "productId": "editor-license",
+        "quantity": 7,
+        "rationale": "Give the seven editors individual access.",
+        "evidenceQuote": "Include 7 Editor license."
+      },
+      {
+        "productId": "migration-session",
+        "quantity": 1,
+        "rationale": "Review the current checklist structure before migration.",
+        "evidenceQuote": "Include 1 Migration session."
+      }
+    ],
+    "timeline": [
+      {
+        "phase": "Scope review",
+        "detail": "Confirm deliverables and sequencing before scheduling work.",
+        "evidenceQuote": null
+      }
+    ],
+    "assumptions": [],
+    "openQuestions": [
+      "Which release checklist should be migrated first?"
+    ],
+    "nextStep": "Reply to review the proposed scope and confirm the next conversation."
+  }
+}

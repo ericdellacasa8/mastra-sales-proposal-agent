@@ -1,0 +1,158 @@
+{
+  "message": "I run a consulting firm called Birchpath Advisory. Prepare a proposal for Copperbank Logistics covering one discovery workshop at €3,000 and one implementation project at €12,000, both one-time fees. Implementation takes eight weeks across three milestones. Include optional support at €1,500/month, excluded from the committed total. Generate the proposal.",
+  "calls": [
+    {
+      "seller": "Birchpath Advisory",
+      "customer": "Copperbank Logistics",
+      "offerings": [
+        {
+          "name": "Discovery Workshop",
+          "quantity": 1,
+          "included": true,
+          "unitPrice": "3000.00",
+          "currency": "EUR",
+          "billing": "once",
+          "basis": "verified",
+          "description": "One discovery workshop to define objectives, stakeholders, and success criteria. One-time fee."
+        },
+        {
+          "name": "Implementation Project",
+          "quantity": 1,
+          "included": true,
+          "unitPrice": "12000.00",
+          "currency": "EUR",
+          "billing": "once",
+          "basis": "verified",
+          "description": "Implementation project delivered over eight weeks across three milestones."
+        },
+        {
+          "name": "Optional Support (retainer)",
+          "quantity": null,
+          "included": false,
+          "unitPrice": "1500.00",
+          "currency": "EUR",
+          "billing": "monthly",
+          "basis": "verified",
+          "description": "Optional monthly support retainer — excluded from the committed total."
+        }
+      ],
+      "summary": "Discovery workshop and implementation project with optional monthly support (excluded from committed total). Implementation delivered in eight weeks across three milestones.",
+      "requirements": null
+    },
+    {
+      "seller": "Birchpath Advisory",
+      "customer": "Copperbank Logistics",
+      "offerings": [
+        {
+          "name": "Discovery Workshop",
+          "quantity": 1,
+          "included": true,
+          "unitPrice": "3000",
+          "currency": "EUR",
+          "billing": "once",
+          "basis": "verified",
+          "description": "One discovery workshop to define objectives, stakeholders, and success criteria. One-time fee."
+        },
+        {
+          "name": "Implementation Project",
+          "quantity": 1,
+          "included": true,
+          "unitPrice": "12000",
+          "currency": "EUR",
+          "billing": "once",
+          "basis": "verified",
+          "description": "Implementation project delivered over eight weeks across three milestones."
+        },
+        {
+          "name": "Optional Support (retainer)",
+          "quantity": null,
+          "included": false,
+          "unitPrice": "1500",
+          "currency": "EUR",
+          "billing": "monthly",
+          "basis": "verified",
+          "description": "Optional monthly support retainer — excluded from the committed total."
+        }
+      ],
+      "summary": "Discovery workshop and implementation project with optional monthly support (excluded from committed total). Implementation delivered in eight weeks across three milestones.",
+      "requirements": null
+    },
+    {
+      "seller": "Birchpath Advisory",
+      "customer": "Copperbank Logistics",
+      "offerings": [
+        {
+          "name": "Discovery Workshop",
+          "quantity": 1,
+          "included": true,
+          "unitPrice": "3000",
+          "currency": "EUR",
+          "billing": "once",
+          "basis": "verified",
+          "description": null
+        },
+        {
+          "name": "Implementation Project",
+          "quantity": 1,
+          "included": true,
+          "unitPrice": "12000",
+          "currency": "EUR",
+          "billing": "once",
+          "basis": "verified",
+          "description": "Implementation project delivered over eight weeks across three milestones."
+        },
+        {
+          "name": "Optional Support (retainer)",
+          "quantity": null,
+          "included": false,
+          "unitPrice": "1500",
+          "currency": "EUR",
+          "billing": "monthly",
+          "basis": "verified",
+          "description": "Optional monthly support retainer — excluded from the committed total."
+        }
+      ],
+      "summary": "Discovery workshop and implementation project with optional monthly support (excluded from committed total). Implementation delivered in eight weeks across three milestones.",
+      "requirements": null
+    },
+    {
+      "seller": "Birchpath Advisory",
+      "customer": "Copperbank Logistics",
+      "offerings": [
+        {
+          "name": "Discovery Workshop",
+          "quantity": 1,
+          "included": true,
+          "unitPrice": "3000.00",
+          "currency": "EUR",
+          "billing": "once",
+          "basis": "verified",
+          "description": "One discovery workshop to define objectives, stakeholders, and success criteria. One-time fee."
+        },
+        {
+          "name": "Implementation Project",
+          "quantity": 1,
+          "included": true,
+          "unitPrice": "12000.00",
+          "currency": "EUR",
+          "billing": "once",
+          "basis": "verified",
+          "description": "Implementation project delivered over eight weeks across three milestones."
+        },
+        {
+          "name": "Optional Support (retainer)",
+          "quantity": null,
+          "included": false,
+          "unitPrice": "1500.00",
+          "currency": "EUR",
+          "billing": "monthly",
+          "basis": "verified",
+          "description": "Optional monthly support retainer — excluded from the committed total."
+        }
+      ],
+      "summary": "Discovery workshop and implementation project with optional monthly support (excluded from committed total). Implementation delivered in eight weeks across three milestones.",
+      "requirements": null
+    }
+  ],
+  "reply": "once at €3,000"
+}

@@ -1,0 +1,70 @@
+{
+  "note": "Synthetic regression fixture. Names, source prose and identifiers are fictional. Historical filename retained for import stability; not an original Studio trace.",
+  "messages": [
+    "I work at CedarCanvas (https://cedarcanvas.example.com/) and want to prepare a hypothetical sales proposal for HarborLedger (https://www.harborledger.example.com/it/).\n\nOur pricing is at https://cedarcanvas.example.com/pricing.\n\nFor this demonstration, assume HarborLedger needs an embeddable email builder for transactional templates. Compare Scale and Optimize as alternatives, with Enterprise as a custom-priced option. Research the offerings and show me the catalog for approval before generating the proposal.",
+    "Approve Scale and Optimize at their published monthly prices. Keep Enterprise as an unpriced custom option. Don't import other plans or add-ons.",
+    "Use Scale only, quantity 1, at its approved monthly subscription price. Generate the proposal now in PDF, HTML proposal, and HTML email formats. Show Optimize and Enterprise only as comparison alternatives, not purchased items."
+  ],
+  "review": {
+    "action": "review",
+    "seller": {
+      "url": "https://cedarcanvas.example.com/pricing",
+      "value": "CedarCanvas pricing",
+      "quote": "Synthetic monthly catalog | CedarCanvas\nThis fictional catalog provides monthly plans for testing approval."
+    },
+    "customer": {
+      "url": "https://www.harborledger.example.com/it/",
+      "value": "HarborLedger",
+      "quote": "Piattaforma fittizia di gestione – HarborLedger – Software fittizio di gestione\nHarborLedger usa una piattaforma fittizia per organizzare richieste interne."
+    },
+    "products": [
+      {
+        "id": null,
+        "name": {
+          "url": "https://cedarcanvas.example.com/pricing",
+          "value": "Scale",
+          "quote": "Scale\n$ 750 /mo\n14-day free trial\nIncludes 25,000 exports/mo and 1 TB bandwidth. All credit add-ons available."
+        }
+      },
+      {
+        "id": null,
+        "name": {
+          "url": "https://cedarcanvas.example.com/pricing",
+          "value": "Optimize",
+          "quote": "Optimize\n$ 2,000 /mo\n14-day free trial\nIncludes 100,000 exports/mo and 1 TB bandwidth. All credit add-ons available."
+        }
+      },
+      {
+        "id": null,
+        "name": {
+          "url": "https://cedarcanvas.example.com/pricing",
+          "value": "Enterprise",
+          "quote": "Enterprise\nCustom\nPersonalized pricing\nEnterprise capabilities\nBrand Style Guide\nCustom AI Model Connector (Coming soon)\nDedicated CSM\nSecurity & Continuity\nOn-Premise / Offline\nSingle Sign-On (SAML/OIDC)"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "seller": {
+      "requestedUrl": "https://cedarcanvas.example.com/",
+      "url": "https://cedarcanvas.example.com/",
+      "retrievedAt": "2026-10-20T14:52:34.482Z",
+      "role": "seller",
+      "text": "Synthetic editing workspace | CedarCanvas\nCedarCanvas supplies a fictional editing workspace for this test."
+    },
+    "pricing": {
+      "requestedUrl": "https://cedarcanvas.example.com/pricing",
+      "url": "https://cedarcanvas.example.com/pricing",
+      "retrievedAt": "2026-10-20T14:52:34.526Z",
+      "role": "pricing",
+      "text": "Synthetic monthly catalog | CedarCanvas\nThis fictional catalog provides monthly plans for testing approval.\nScale\n$ 750 /mo\n14-day free trial\nIncludes 25,000 exports/mo and 1 TB bandwidth. All credit add-ons available.\nStart free trial →\nEverything in Launch , plus\nCustom Blocks\nAudit Tab\nTeam Collaboration\nBuilt-in Themes\nHeader & Footer\nCustom Image Library\nSmart Merge Tags\nMulti-Language Templates\nInbox Previews\nOptimize\n$ 2,000 /mo\n14-day free trial\nIncludes 100,000 exports/mo and 1 TB bandwidth. All credit add-ons available.\nStart free trial\nEverything in Scale , plus\nCustom Themes\nCustom CSS\nCustom Tabs\nAMP\nSynced Blocks\nFree\nSynthetic free plan for testing zero-price exclusion.\n$ 0\nForever free\nIncluded with Free\nEmail Builder\nPage Builder\nPopup Builder\nDocument Builder\nCompare all features → Create Account\nEnterprise\nCustom scope requires a separate quote for this fictional offering.\nCustom\nPersonalized pricing\nEnterprise capabilities\nBrand Style Guide\nCustom AI Model Connector (Coming soon)\nDedicated CSM\nSecurity & Continuity\nOn-Premise / Offline\nSingle Sign-On (SAML/OIDC)\nCompare all features → Contact sales\nPrices are in USD. Monthly and yearly billing options are listed separately."
+    },
+    "customer": {
+      "requestedUrl": "https://www.harborledger.example.com/it/",
+      "url": "https://www.harborledger.example.com/it/",
+      "retrievedAt": "2026-10-20T14:52:35.812Z",
+      "role": "customer",
+      "text": "Piattaforma fittizia di gestione – HarborLedger – Software fittizio di gestione\nHarborLedger usa una piattaforma fittizia per organizzare richieste interne."
+    }
+  }
+}
