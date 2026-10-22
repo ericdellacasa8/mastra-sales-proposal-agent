@@ -1,7 +1,6 @@
 # Contributing
 
-This is an independently maintained Conversational Sales Proposal Agent, being prepared
-for private colleague review. It is not an auto-generated Mastra template mirror.
+This is an independently maintained Conversational Sales Proposal Agent.
 Repository creation, visibility and invitations require the owner's separate approval.
 
 Read the [V1 architecture](README.md#architecture-and-customization),
