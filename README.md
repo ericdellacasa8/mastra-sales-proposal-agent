@@ -217,7 +217,7 @@ The test suite includes 176 tests covering conversational workflows, pricing, ar
 - **Storage or lock error:** follow [local recovery](docs/local-development.md#storage-and-privacy).
   Do not delete databases or merge histories to bypass an error.
 
-## Limitations and review status
+## Limitations 
 
 - Supports one-time fees, monthly subscriptions and mixed charges in USD or EUR, with
   one currency per proposal. No conversions, discounts or inferred contractual terms.
