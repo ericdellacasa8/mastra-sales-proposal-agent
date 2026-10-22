@@ -234,8 +234,4 @@ records sandbox restrictions and the unresolved `sprintf-js` and `braces` adviso
 - This is a single-owner local application. Thread isolation is not multi-tenant
   authentication. Do not expose or tunnel the server as a shared service.
 
-For review instructions, see [CONTRIBUTING](CONTRIBUTING.md), the
-[publication allowlist and review status](docs/github-file-manifest.md), and the
-[repository audit](docs/repository-audit.md). The project uses the [MIT license](LICENSE), with dependency attribution in
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Private review is not approval for
-production deployment. No remote publication is authorized by this README.
+For development guidelines, see CONTRIBUTING.md. This project is available under the MIT license, with third-party notices documented in THIRD_PARTY_NOTICES.md.
